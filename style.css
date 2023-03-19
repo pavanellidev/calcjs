@@ -94,7 +94,7 @@
    color: var(--font-color);
    cursor: pointer;
    display: block;
-   height: 4.25rem;
+   height: 52px;
    width: 6rem;
  }
  
@@ -117,6 +117,22 @@
  .success {
    border-color: var(--primary-color) !important;
    color: var(--primary-color) !important;
+ }
+
+ @media (max-width: 500px) {
+    main {
+      max-height: 95vh;
+    }
+    header {
+      padding: 16px;
+    }
+    #input,
+    #result {
+      padding: 8px;
+    }
+    #keys {
+      margin: 0.8rem 0;
+    }
  }
 
  @media (max-width:410px) {
